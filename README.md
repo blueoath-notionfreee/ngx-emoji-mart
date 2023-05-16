@@ -1,3 +1,8 @@
+2023/5/16時点で、色々元ソースがバグっており、不具合修正したものをNPMとして展開する
+- Angular15向け(8.2.0)がベース
+- 絵文字ライブラリ参照パスがおかしかったので修正
+- バージョンが上がったことによる参照方法が変わったことの修正(が足りてないのを適用)
+
 <img align="right" width="200" src="https://raw.githubusercontent.com/scttcper/ngx-emoji-mart/master/misc/preview.png" />
 
 # ngx-emoji-mart
