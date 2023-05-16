@@ -3,6 +3,10 @@
 - 絵文字ライブラリ参照パスがおかしかったので修正
 - バージョンが上がったことによる参照方法が変わったことの修正(が足りてないのを適用)
 
+修正状況
+- bugfix/v8.2.1に、e574b0a8aac814ee76390e84cffc4e306721a57f　コミットをブランチして、修正開始している
+- ※mainブランチは放置していることに注意
+
 <img align="right" width="200" src="https://raw.githubusercontent.com/scttcper/ngx-emoji-mart/master/misc/preview.png" />
 
 # ngx-emoji-mart
