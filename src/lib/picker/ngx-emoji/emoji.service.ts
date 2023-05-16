@@ -7,7 +7,7 @@ import { Emoji } from './emoji.component';
 const COLONS_REGEX = /^(?:\:([^\:]+)\:)(?:\:skin-tone-(\d)\:)?$/;
 const SKINS = ['1F3FA', '1F3FB', '1F3FC', '1F3FD', '1F3FE', '1F3FF'];
 export const DEFAULT_BACKGROUNDFN = (set: string, sheetSize: number) =>
-  `https://cdn.jsdelivr.net/npm/emoji-datasource-${set}@14.0.0/img/${set}/64/${sheetSize}.png`;
+  `https://cdn.jsdelivr.net/npm/emoji-datasource-${set}@14.0.0/img/${set}/sheets/${sheetSize}.png`;
 
 @Injectable({ providedIn: 'root' })
 export class EmojiService {
@@ -131,9 +131,9 @@ export class EmojiService {
     set: Emoji['set'] = 'apple',
     size: Emoji['size'] = 24,
     sheetSize: Emoji['sheetSize'] = 64,
-    sheetRows: Emoji['sheetRows'] = 57,
+    sheetRows: Emoji['sheetRows'] = 61,
     backgroundImageFn: Emoji['backgroundImageFn'] = DEFAULT_BACKGROUNDFN,
-    sheetColumns = 58,
+    sheetColumns = 61,
     url?: string,
   ) {
     const hasImageUrl = !!url;
