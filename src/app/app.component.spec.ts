@@ -1,6 +1,6 @@
 import { TestBed, waitForAsync } from '@angular/core/testing';
 
-import { GhButtonModule } from '@ctrl/ngx-github-buttons';
+import { GhButtonModule } from '@michihiro.ota/ngx-github-buttons';
 
 import { PickerModule } from '../lib/picker/picker.module';
 import { AppComponent } from './app.component';

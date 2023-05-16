@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { GhButtonModule } from '@ctrl/ngx-github-buttons';
+import { GhButtonModule } from '@michihiro.ota/ngx-github-buttons';
 
 import { EmojiModule } from '../lib/picker/ngx-emoji/emoji.module';
 import { PickerModule } from '../lib/picker/picker.module';

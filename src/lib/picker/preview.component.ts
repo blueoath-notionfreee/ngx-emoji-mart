@@ -1,4 +1,4 @@
-import { Emoji, EmojiData, EmojiService } from '@ctrl/ngx-emoji-mart/ngx-emoji';
+import { Emoji, EmojiData, EmojiService } from '@michihiro.ota/ngx-emoji-mart/ngx-emoji';
 import {
   ChangeDetectionStrategy,
   ChangeDetectorRef,

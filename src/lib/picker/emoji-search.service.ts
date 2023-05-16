@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 
-import { categories, EmojiData, EmojiService } from '@ctrl/ngx-emoji-mart/ngx-emoji';
+import { categories, EmojiData, EmojiService } from '@michihiro.ota/ngx-emoji-mart/ngx-emoji';
 import { intersect } from './utils';
 
 @Injectable({ providedIn: 'root' })

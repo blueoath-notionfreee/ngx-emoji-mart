@@ -2,7 +2,7 @@
 
 # ngx-emoji-mart
 
-[![npm](https://badge.fury.io/js/%40ctrl%2Fngx-emoji-mart.svg)](https://www.npmjs.org/package/@ctrl/ngx-emoji-mart)
+[![npm](https://badge.fury.io/js/%40ctrl%2Fngx-emoji-mart.svg)](https://www.npmjs.org/package/@michihiro.ota/ngx-emoji-mart)
 [![codecov](https://img.shields.io/codecov/c/github/scttcper/ngx-emoji-mart.svg)](https://codecov.io/github/scttcper/ngx-emoji-mart)
 
 **DEMO**: https://ngx-emoji-mart.vercel.app
@@ -12,14 +12,14 @@ This project is a port of [emoji-mart](https://github.com/missive/emoji-mart) by
 ## Installation
 
 ```sh
-npm install @ctrl/ngx-emoji-mart
+npm install @michihiro.ota/ngx-emoji-mart
 ```
 
 ## Dependencies
 
 Latest version available for each version of Angular
 
-| @ctrl/ngx-emoji-mart | Angular   |
+| @michihiro.ota/ngx-emoji-mart | Angular   |
 | -------------------- | --------- |
 | 1.0.6                | 8.x       |
 | 3.1.0                | 9.x       |
@@ -35,13 +35,13 @@ Latest version available for each version of Angular
 Import Module in ngModule
 
 ```ts
-import { PickerModule } from '@ctrl/ngx-emoji-mart';
+import { PickerModule } from '@michihiro.ota/ngx-emoji-mart';
 ```
 
 Import styles in styles.scss if using SASS
 
 ```scss
-@import '~@ctrl/ngx-emoji-mart/picker';
+@import '~@michihiro.ota/ngx-emoji-mart/picker';
 ```
 
 Or angular-cli can also include it via angular-cli.json
@@ -49,7 +49,7 @@ Or angular-cli can also include it via angular-cli.json
 ```
 "styles": [
   "styles.scss",
-  "node_modules/@ctrl/ngx-emoji-mart/picker.css"
+  "node_modules/@michihiro.ota/ngx-emoji-mart/picker.css"
 ]
 ```
 
@@ -196,7 +196,7 @@ Sheets are served from [unpkg](https://unpkg.com), a global CDN that serves file
 ### Emoji
 
 ```ts
-import { EmojiModule } from '@ctrl/ngx-emoji-mart/ngx-emoji';
+import { EmojiModule } from '@michihiro.ota/ngx-emoji-mart/ngx-emoji';
 ```
 
 ```html
@@ -275,7 +275,7 @@ const customEmojis = [
 The `Picker` doesn’t have to be mounted for you to take advantage of the advanced search results.
 
 ```ts
-import { EmojiSearch } from '@ctrl/ngx-emoji-mart';
+import { EmojiSearch } from '@michihiro.ota/ngx-emoji-mart';
 class ex {
   constructor(private emojiSearch: EmojiSearch) {
     this.emojiSearch.search('christmas').map(o => o.native);

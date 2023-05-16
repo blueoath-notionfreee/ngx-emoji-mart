@@ -1,5 +1,5 @@
 {
-  "name": "@ctrl/ngx-emoji-mart",
+  "name": "@michihiro.ota/ngx-emoji-mart",
   "version": "0.0.0-placeholder",
   "license": "MIT",
   "scripts": {
@@ -33,7 +33,7 @@
     "@angular/language-service": "15.2.8",
     "@angular/platform-browser": "15.2.8",
     "@angular/platform-browser-dynamic": "15.2.8",
-    "@ctrl/ngx-github-buttons": "8.0.0",
+    "@michihiro.ota/ngx-github-buttons": "8.0.0",
     "@types/inflection": "1.13.0",
     "@types/jasmine": "4.3.1",
     "@types/node": "18.0.0",

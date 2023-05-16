@@ -22,7 +22,7 @@
       "dom"
     ],
     "paths": {
-      "@ctrl/ngx-emoji-mart/ngx-emoji": [
+      "@michihiro.ota/ngx-emoji-mart/ngx-emoji": [
         "./src/lib/picker/ngx-emoji/index"
       ]
     }

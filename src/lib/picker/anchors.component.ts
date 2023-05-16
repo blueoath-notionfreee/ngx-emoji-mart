@@ -6,7 +6,7 @@ import {
   Output,
 } from '@angular/core';
 
-import { EmojiCategory } from '@ctrl/ngx-emoji-mart/ngx-emoji';
+import { EmojiCategory } from '@michihiro.ota/ngx-emoji-mart/ngx-emoji';
 
 @Component({
   selector: 'emoji-mart-anchors',
